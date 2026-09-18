@@ -28,7 +28,7 @@ const BARBERS = [
 export default function HomeScreen() {
   const navigation = useNavigation<NavigationProp<'Home'>>();
   const route = useRoute<ScreenRouteProp<'Home'>>();
-  const userName = route.params?.userName || 'Carlos';
+  const userName = route.params?.userName || 'Usuario';
   const styles = createStyles(COLORS);
 
   return (
